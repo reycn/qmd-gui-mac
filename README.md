@@ -4,6 +4,12 @@ An on-device search engine for everything you need to remember. Index your markd
 
 QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.
 
+## Fork Changes (`reycn/qmd-gui-mac`)
+
+As of February 9, 2026, this fork's `main` branch has no committed code divergence from `tobi/qmd` `upstream/main` (`0 ahead / 0 behind`).
+
+Fork-specific work currently in this repository is focused on local GUI/macOS packaging artifacts and helper scripts (for example `macos-app/`, `dist/`, `scripts/`, and `dev.sh`) that are present as local workspace changes.
+
 ## Quick Start
 
 ```sh
